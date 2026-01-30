@@ -1,91 +1,36 @@
 @import "tailwindcss";
 
 @theme {
-  /* Font Family */
-  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
 
-  /* Colors - Primary */
-  --color-primary-500: #5B5FED;
-  --color-primary-600: #4347D9;
-  --color-primary-700: #3437C5;
-
-  /* Colors - Secondary */
-  --color-secondary-500: #718EBF;
-  --color-secondary-600: #5A7AA6;
-  --color-secondary-700: #4A6A96;
-
-  /* Colors - Success */
-  --color-success-500: #41D4A8;
-  --color-success-600: #34C099;
-  --color-success-700: #2AAC8A;
-
-  /* Colors - Error */
-  --color-error-500: #FF4B4B;
-  --color-error-600: #E63C3C;
-  --color-error-700: #CC2D2D;
-
-  /* Colors - Warning */
-  --color-warning-500: #FFA500;
-  --color-warning-600: #E69400;
-
-  /* Colors - Text */
+  /* Colors */
+  --color-primary: #1814F3;
+  --color-primary-dark: #0E0DB8;
+  --color-secondary: #16DBAA;
+  --color-warning: #FFBB38;
+  --color-error: #FE5C73;
   --color-text-primary: #343C6A;
   --color-text-secondary: #718EBF;
-  --color-text-tertiary: #B1B1B1;
+  --color-border: #E6EFF5;
+  --color-background: #F5F7FA;
+  --color-surface: #FFFFFF;
 
-  /* Colors - Background */
-  --color-bg-primary: #FFFFFF;
-  --color-bg-secondary: #F5F7FA;
-  --color-bg-tertiary: #E6EFF5;
+  /* Radius */
+  --radius-sm: 10px;
+  --radius-md: 15px;
+  --radius-lg: 20px;
+  --radius-xl: 25px;
+}
 
-  /* Colors - Border */
-  --color-border-light: #E6EFF5;
-  --color-border-medium: #DFEAF2;
-  --color-border-dark: #B8C4D0;
-
-  /* Border Radius */
-  --radius-sm: 8px;
-  --radius-md: 12px;
-  --radius-lg: 16px;
-  --radius-xl: 20px;
-  --radius-2xl: 25px;
-
-  /* Shadows */
-  --shadow-sm: 0 1px 3px rgb(52 60 106 / 0.1);
-  --shadow-md: 0 4px 12px rgb(52 60 106 / 0.08);
-  --shadow-lg: 0 8px 24px rgb(52 60 106 / 0.12);
-  --shadow-card: 0 4px 18px rgb(99 99 99 / 0.04);
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body {
-  font-family: var(--font-sans);
-  background-color: var(--color-bg-secondary);
-  color: var(--color-text-primary);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-/* Custom scrollbar */
-::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
-}
-
-::-webkit-scrollbar-track {
-  background: var(--color-bg-secondary);
-}
-
-::-webkit-scrollbar-thumb {
-  background: var(--color-border-medium);
-  border-radius: 3px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: var(--color-secondary-500);
 }
