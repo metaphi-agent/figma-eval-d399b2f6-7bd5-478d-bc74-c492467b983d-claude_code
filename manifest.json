@@ -1,0 +1,51 @@
+{
+  "session_id": "session_20260130_170454",
+  "created_at": "2026-01-30T17:04:54.518898+00:00",
+  "steps": [
+    {
+      "name": "Step 1: Extract from Figma",
+      "status": "done",
+      "at": "2026-01-30T17:04:54.518898+00:00"
+    },
+    {
+      "name": "Step 2: Export Ground Truth",
+      "status": "done",
+      "at": "2026-01-30T17:05:10.556744+00:00"
+    },
+    {
+      "name": "Step 3: Visual Analysis",
+      "status": "done",
+      "at": "2026-01-30T17:05:10.633431+00:00"
+    },
+    {
+      "name": "Step 4: Component & Interaction Audit",
+      "status": "done",
+      "at": "2026-01-30T17:05:11.437652+00:00"
+    },
+    {
+      "name": "Step 5: Scaffold Project",
+      "status": "done",
+      "at": "2026-01-30T17:05:11.551118+00:00"
+    },
+    {
+      "name": "Step 6: Generate Components",
+      "status": "done",
+      "at": "2026-01-30T17:05:11.612571+00:00"
+    },
+    {
+      "name": "Step 7: Deploy & Push",
+      "status": "done",
+      "at": "2026-01-30T17:05:11.709502+00:00"
+    }
+  ],
+  "artifacts": {
+    "figma_file_key": "iq3N9qbFeplvwivtYaYZBW",
+    "figma_file_key_at": "2026-01-30T17:05:16.833115+00:00",
+    "preview_url": "https://ta-01kg7xj712r7n0pzfe6p7rmg8d-5173.wo-8zgjoxqj9w1qg0qjetopc08fy.w.modal.host",
+    "preview_url_at": "2026-01-30T17:05:16.937405+00:00",
+    "github_repo": "https://github.com/metaphi-agent/figma-eval-d399b2f6-7bd5-478d-bc74-c492467b983d-claude_code",
+    "github_repo_at": "2026-01-30T17:05:17.029144+00:00"
+  },
+  "notes": [],
+  "updated_at": "2026-01-30T17:05:17.029144+00:00"
+}
