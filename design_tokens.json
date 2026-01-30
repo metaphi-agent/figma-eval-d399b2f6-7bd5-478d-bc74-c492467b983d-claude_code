@@ -1,0 +1,104 @@
+{
+  "colors": {
+    "primary": {
+      "DEFAULT": "#396AFF",
+      "dark": "#2D60E8",
+      "light": "#E7EDFF"
+    },
+    "secondary": {
+      "DEFAULT": "#41D4A8",
+      "light": "#DCFAF8"
+    },
+    "accent": {
+      "orange": "#FFBB38",
+      "pink": "#FC7900",
+      "red": "#FE5C73",
+      "purple": "#7B61FF"
+    },
+    "navy": {
+      "DEFAULT": "#343C6A",
+      "light": "#718EBF"
+    },
+    "background": {
+      "DEFAULT": "#F5F7FA",
+      "card": "#FFFFFF",
+      "sidebar": "#FFFFFF"
+    },
+    "border": {
+      "DEFAULT": "#E6EFF5",
+      "light": "#F5F7FA"
+    },
+    "status": {
+      "success": "#41D4A8",
+      "error": "#FE5C73",
+      "warning": "#FFBB38"
+    },
+    "card": {
+      "blue": {
+        "gradient": "linear-gradient(107deg, #5B5A6F 0%, #000000 100%)",
+        "solid": "#396AFF"
+      }
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "primary": "Inter, system-ui, sans-serif"
+    },
+    "fontSize": {
+      "xs": "12px",
+      "sm": "13px",
+      "base": "15px",
+      "md": "16px",
+      "lg": "17px",
+      "xl": "18px",
+      "2xl": "20px",
+      "3xl": "22px",
+      "4xl": "25px",
+      "5xl": "28px"
+    },
+    "fontWeight": {
+      "regular": "400",
+      "medium": "500",
+      "semibold": "600",
+      "bold": "700"
+    },
+    "lineHeight": {
+      "tight": "1.2",
+      "normal": "1.4",
+      "relaxed": "1.5"
+    }
+  },
+  "spacing": {
+    "xs": "4px",
+    "sm": "8px",
+    "md": "12px",
+    "lg": "16px",
+    "xl": "20px",
+    "2xl": "24px",
+    "3xl": "30px",
+    "4xl": "40px"
+  },
+  "borderRadius": {
+    "sm": "10px",
+    "md": "15px",
+    "lg": "20px",
+    "xl": "25px",
+    "full": "9999px"
+  },
+  "shadows": {
+    "card": "0 4px 12px rgba(0, 0, 0, 0.05)",
+    "dropdown": "0 8px 24px rgba(0, 0, 0, 0.12)"
+  },
+  "layout": {
+    "sidebar": {
+      "width": "250px"
+    },
+    "header": {
+      "height": "100px"
+    },
+    "content": {
+      "maxWidth": "1190px",
+      "padding": "40px"
+    }
+  }
+}

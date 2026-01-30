@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+/* BankDash Design Tokens */
+@theme {
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Colors */
+  --color-primary: #396AFF;
+  --color-primary-dark: #2D60E8;
+  --color-primary-light: #E7EDFF;
+
+  --color-secondary: #41D4A8;
+  --color-secondary-light: #DCFAF8;
+
+  --color-navy: #343C6A;
+  --color-navy-light: #718EBF;
+
+  --color-background: #F5F7FA;
+  --color-card: #FFFFFF;
+
+  --color-border: #E6EFF5;
+  --color-border-light: #F5F7FA;
+
+  --color-success: #41D4A8;
+  --color-error: #FE5C73;
+  --color-warning: #FFBB38;
+
+  --color-orange: #FFBB38;
+  --color-pink: #FF82AC;
+  --color-purple: #7B61FF;
+  --color-teal: #16DBCC;
+
+  /* Shadows */
+  --shadow-card: 0 4px 12px rgba(0, 0, 0, 0.05);
+  --shadow-dropdown: 0 8px 24px rgba(0, 0, 0, 0.12);
+
+  /* Border Radius */
+  --radius-sm: 10px;
+  --radius-md: 15px;
+  --radius-lg: 20px;
+  --radius-xl: 25px;
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--color-background);
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-border-light);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-navy-light);
+  border-radius: 3px;
+}
+
+/* Card gradient for credit card */
+.card-gradient-dark {
+  background: linear-gradient(107deg, #5B5A6F 0%, #000000 100%);
+}
+
+.card-gradient-blue {
+  background: linear-gradient(135deg, #4C49ED 0%, #0A06F4 100%);
+}

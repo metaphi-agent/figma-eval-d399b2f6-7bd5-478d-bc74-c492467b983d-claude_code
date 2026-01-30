@@ -1,0 +1,16 @@
+{
+  "figma_file_key": "iq3N9qbFeplvwivtYaYZBW",
+  "total_frames": 10,
+  "frames": [
+    {"name": "Main Dashboard", "node_id": "78:351", "gt_image": "78-351.png", "target_route": "/"},
+    {"name": "Transaction", "node_id": "105:0", "gt_image": "105-0.png", "target_route": "/transactions"},
+    {"name": "Accounts", "node_id": "101:0", "gt_image": "101-0.png", "target_route": "/accounts"},
+    {"name": "Investments", "node_id": "104:60", "gt_image": "104-60.png", "target_route": "/investments"},
+    {"name": "Credit Cards", "node_id": "101:371", "gt_image": "101-371.png", "target_route": "/credit-cards"},
+    {"name": "Loan", "node_id": "101:677", "gt_image": "101-677.png", "target_route": "/loans"},
+    {"name": "Services", "node_id": "112:941", "gt_image": "112-941.png", "target_route": "/services"},
+    {"name": "Setting Page 1", "node_id": "112:279", "gt_image": "112-279.png", "target_route": "/settings"},
+    {"name": "Setting Page 2", "node_id": "112:504", "gt_image": "112-504.png", "target_route": "/settings/preferences"},
+    {"name": "Setting Page 3", "node_id": "112:699", "gt_image": "112-699.png", "target_route": "/settings/security"}
+  ]
+}
